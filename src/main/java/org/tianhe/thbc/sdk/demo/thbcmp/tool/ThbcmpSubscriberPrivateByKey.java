@@ -22,28 +22,28 @@ public class ThbcmpSubscriberPrivateByKey {
     private static String subscriberConfigFile =
             ThbcmpSubscriberPrivate.class
                     .getClassLoader()
-                    .getResource("amop/config-subscriber-for-test.toml")
+                    .getResource("thbcmp/config-subscriber-for-test.toml")
                     .getPath();
 
     private static String publisherFile =
             ThbcmpPublisherPrivate.class
                     .getClassLoader()
-                    .getResource("amop/config-publisher-for-test.toml")
+                    .getResource("thbcmp/config-publisher-for-test.toml")
                     .getPath();
 
     public static void Usage() {
         System.out.println(
-                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivateByKey generateKeyFile keyFileName");
+                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.thbcmp.tool.ThbcmpSubscriberPrivateByKey generateKeyFile keyFileName");
         System.out.println(
-                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivateByKey subscribe topicName privateKeyFile");
+                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.thbcmp.tool.ThbcmpSubscriberPrivateByKey subscribe topicName privateKeyFile");
         System.out.println(
-                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivateByKey publish [topicName] [isBroadcast: true/false] [sendedContent] [count] [publicKeyFile1] [publicKeyFile2] ...");
+                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.thbcmp.tool.ThbcmpSubscriberPrivateByKey publish [topicName] [isBroadcast: true/false] [sendedContent] [count] [publicKeyFile1] [publicKeyFile2] ...");
         System.out.println();
         System.exit(0);
     }
     /**
      * @param args topic, privateKeyFile, password(Option)
-     * @throws Exception AMOP exceptioned
+     * @throws Exception THBCMP exceptioned
      */
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
@@ -94,13 +94,13 @@ public class ThbcmpSubscriberPrivateByKey {
             return;
         }
         ThbcSDK sdk = ThbcSDK.build(subscriberConfigFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
         ThbcmpCallback cb = new DemoThbcmpCallback();
 
         System.out.println("Start test");
-        amop.setCallback(cb);
+        thbcmp.setCallback(cb);
         // Subscriber a private topic.
-        amop.subscribePrivateTopics(topic, hexPrivateKey, cb);
+        thbcmp.subscribePrivateTopics(topic, hexPrivateKey, cb);
     }
 
     public static String readContent(String filePath) throws IOException {
@@ -137,7 +137,7 @@ public class ThbcmpSubscriberPrivateByKey {
             return;
         }
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
         if (!subscribed(sdk, topicName)) {
             System.out.println("No subscriber, exist.");
         }
@@ -146,7 +146,7 @@ public class ThbcmpSubscriberPrivateByKey {
         System.out.println("===================================================================");
         System.out.println("set up private topic");
         // Publish a private topic
-        amop.publishPrivateTopicWithHexPublicKeyList(topicName, publicKeyList);
+        thbcmp.publishPrivateTopicWithHexPublicKeyList(topicName, publicKeyList);
         System.out.println("wait until finish private topic verify");
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -166,7 +166,7 @@ public class ThbcmpSubscriberPrivateByKey {
             DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             if (isBroadcast) {
-                amop.broadcastAmopMsg(out);
+                thbcmp.broadcastThbcmpMsg(out);
                 System.out.println(
                         "Step 1: Send out msg by broadcast,  time: "
                                 + df.format(LocalDateTime.now())
@@ -175,7 +175,7 @@ public class ThbcmpSubscriberPrivateByKey {
                                 + " content:"
                                 + new String(out.getContent()));
             } else {
-                amop.sendAmopMsg(out, cb);
+                thbcmp.sendThbcmpMsg(out, cb);
                 System.out.println(
                         "Step 1: Send out msg,  time: "
                                 + df.format(LocalDateTime.now())

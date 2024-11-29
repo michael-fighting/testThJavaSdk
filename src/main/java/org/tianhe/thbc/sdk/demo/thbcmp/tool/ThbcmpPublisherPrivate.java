@@ -18,18 +18,18 @@ public class ThbcmpPublisherPrivate {
     private static String publisherFile =
             ThbcmpPublisherPrivate.class
                     .getClassLoader()
-                    .getResource("amop/config-publisher-for-test.toml")
+                    .getResource("thbcmp/config-publisher-for-test.toml")
                     .getPath();
 
     /**
      * @param args topicName, pubKey1, pubKey2, isBroadcast: true/false, content, count. if only one
      *     public key please fill pubKey2 with null
-     * @throws Exception AMOP exceptioned
+     * @throws Exception THBCMP exceptioned
      */
     public static void main(String[] args) throws Exception {
         if (args.length < parameterNum) {
             System.out.println(
-                    "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpPublisherPrivate <topicName> <pubKey1> <pubKey2> <isBroadcast: true/false> <content> <count>");
+                    "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.thbcmp.tool.ThbcmpPublisherPrivate <topicName> <pubKey1> <pubKey2> <isBroadcast: true/false> <content> <count>");
             return;
         }
         String topicName = args[0];
@@ -39,7 +39,7 @@ public class ThbcmpPublisherPrivate {
         String content = args[4];
         Integer count = Integer.parseInt(args[5]);
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
 
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -65,7 +65,7 @@ public class ThbcmpPublisherPrivate {
             keyToolList.add(keyTool1);
         }
         // Publish a private topic
-        amop.publishPrivateTopic(topicName, keyToolList);
+        thbcmp.publishPrivateTopic(topicName, keyToolList);
         System.out.println("wait until finish private topic verify");
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -85,7 +85,7 @@ public class ThbcmpPublisherPrivate {
             DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             if (isBroadcast) {
-                amop.broadcastAmopMsg(out);
+                thbcmp.broadcastThbcmpMsg(out);
                 System.out.println(
                         "Step 1: Send out msg by broadcast,  time: "
                                 + df.format(LocalDateTime.now())
@@ -94,7 +94,7 @@ public class ThbcmpPublisherPrivate {
                                 + " content:"
                                 + new String(out.getContent()));
             } else {
-                amop.sendAmopMsg(out, cb);
+                thbcmp.sendThbcmpMsg(out, cb);
                 System.out.println(
                         "Step 1: Send out msg,  time: "
                                 + df.format(LocalDateTime.now())

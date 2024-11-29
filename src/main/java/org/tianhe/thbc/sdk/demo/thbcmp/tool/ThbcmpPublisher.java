@@ -14,13 +14,13 @@ public class ThbcmpPublisher {
     private static String publisherFile =
             ThbcmpPublisher.class
                     .getClassLoader()
-                    .getResource("amop/config-publisher-for-test.toml")
+                    .getResource("thbcmp/config-publisher-for-test.toml")
                     .getPath();
 
     /**
      * @param args topicName, isBroadcast, Content(Content you want to send out), Count(how many msg
      *     you want to send out)
-     * @throws Exception AMOP publish exceptioned
+     * @throws Exception THBCMP publish exceptioned
      */
     public static void main(String[] args) throws Exception {
         if (args.length < parameterNum) {
@@ -32,7 +32,7 @@ public class ThbcmpPublisher {
         String content = args[2];
         Integer count = Integer.parseInt(args[3]);
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
 
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -58,7 +58,7 @@ public class ThbcmpPublisher {
             DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             if (isBroadcast) {
-                amop.broadcastAmopMsg(out);
+                thbcmp.broadcastThbcmpMsg(out);
                 System.out.println(
                         "Step 1: Send out msg by broadcast,  time: "
                                 + df.format(LocalDateTime.now())
@@ -67,7 +67,7 @@ public class ThbcmpPublisher {
                                 + " content:"
                                 + new String(out.getContent()));
             } else {
-                amop.sendAmopMsg(out, cb);
+                thbcmp.sendThbcmpMsg(out, cb);
                 System.out.println(
                         "Step 1: Send out msg,  time: "
                                 + df.format(LocalDateTime.now())

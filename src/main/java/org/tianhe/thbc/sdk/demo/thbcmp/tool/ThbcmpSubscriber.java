@@ -28,7 +28,7 @@ public class ThbcmpSubscriber {
         // Set a default callback
         thbcmp.setCallback(cb);
         // Subscriber a normal topic
-        v.subscribeTopic(topic, cb);
+        thbcmp.subscribeTopic(topic, cb);
         System.out.println("Start test");
     }
 }
