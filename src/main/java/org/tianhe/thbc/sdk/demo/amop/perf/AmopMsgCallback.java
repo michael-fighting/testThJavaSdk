@@ -3,7 +3,7 @@ package org.tianhe.thbc.sdk.demo.amop.perf;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
 import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 
-public class AmopMsgCallback extends AmopCallback {
+public class AmopMsgCallback extends ThbcmpCallback {
     private Long startTime = System.currentTimeMillis();
 
     private AmopMsgCollector collector = new AmopMsgCollector();
@@ -13,7 +13,7 @@ public class AmopMsgCallback extends AmopCallback {
     }
 
     @Override
-    public byte[] receiveAmopMsg(AmopMsgIn msg) {
+    public byte[] receiveAmopMsg(ThbcmpMsgIn msg) {
         Long cost = System.currentTimeMillis() - startTime;
         collector.onSubscribedTopicMsg(msg, cost);
         return "Yes, I received!".getBytes();

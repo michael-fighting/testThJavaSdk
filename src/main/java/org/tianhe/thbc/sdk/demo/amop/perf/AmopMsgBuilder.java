@@ -10,17 +10,17 @@ import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 public class AmopMsgBuilder {
 
     public void sendMsg(
-            AmopMsgCollector collector, Amop sender, String topic, TopicType type, int contentLen) {
-        AmopMsgOut out = new AmopMsgOut();
+            AmopMsgCollector collector, Thbcmp sender, String topic, TopicType type, int contentLen) {
+        ThbcmpMsgOut out = new ThbcmpMsgOut();
         out.setTopic(topic);
         out.setType(type);
         out.setTimeout(5000);
         out.setContent(getRandomBytes(contentLen));
 
-        AmopResponseCallback callback =
-                new AmopResponseCallback() {
+        ThbcmpResponseCallback callback =
+                new ThbcmpResponseCallback() {
                     @Override
-                    public void onResponse(AmopResponse response) {
+                    public void onResponse(ThcmpResponse response) {
                         collector.addResponse();
                         if (response.getErrorCode() != 0) {
                             System.out.println(

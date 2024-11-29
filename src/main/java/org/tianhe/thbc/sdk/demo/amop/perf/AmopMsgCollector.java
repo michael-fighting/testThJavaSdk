@@ -41,7 +41,7 @@ public class AmopMsgCollector {
         error.incrementAndGet();
     }
 
-    public void onSubscribedTopicMsg(AmopMsgIn msg, long cost) {
+    public void onSubscribedTopicMsg(ThbcmpMsgIn msg, long cost) {
 
         // System.out.println("Subscriber receive msg :" + Hex.toHexString(msg.getContent()));
         try {
