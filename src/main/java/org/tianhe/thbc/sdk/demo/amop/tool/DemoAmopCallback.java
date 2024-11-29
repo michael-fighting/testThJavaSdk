@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
-import org.tianhe.thbc.sdk.thbcmp.topic.AmopMsgIn;
+import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 import org.tianhe.thbc.sdk.model.MsgType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

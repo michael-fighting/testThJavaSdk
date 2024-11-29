@@ -2,7 +2,7 @@ package org.tianhe.thbc.sdk.demo.amop.perf;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
-import org.tianhe.thbc.sdk.thbcmp.topic.AmopMsgIn;
+import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
