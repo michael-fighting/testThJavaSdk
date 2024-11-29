@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -9,10 +9,10 @@ import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 import org.tianhe.thbc.sdk.client.Client;
 import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 
-public class AmopPublisher {
+public class ThbcmpPublisher {
     private static final int parameterNum = 4;
     private static String publisherFile =
-            AmopPublisher.class
+            ThbcmpPublisher.class
                     .getClassLoader()
                     .getResource("amop/config-publisher-for-test.toml")
                     .getPath();
@@ -55,7 +55,7 @@ public class AmopPublisher {
             out.setContent(content.getBytes());
             out.setTimeout(6000);
             out.setTopic(topicName);
-            DemoAmopResponseCallback cb = new DemoAmopResponseCallback();
+            DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             if (isBroadcast) {
                 amop.broadcastAmopMsg(out);

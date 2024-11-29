@@ -1,11 +1,11 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponse;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponseCallback;
 
-public class DemoAmopResponseCallback extends ThbcmpResponseCallback {
+public class DemoThbcmpResponseCallback extends ThbcmpResponseCallback {
 
     @Override
     public void onResponse(ThbcmpResponse response) {

@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import static org.tianhe.thbc.sdk.utils.ByteUtils.byteArrayToInt;
 
@@ -15,8 +15,8 @@ import org.tianhe.thbc.sdk.model.MsgType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DemoAmopCallback extends ThbcmpCallback {
-    private static Logger logger = LoggerFactory.getLogger(DemoAmopCallback.class);
+public class DemoThbcmpCallback extends ThbcmpCallback {
+    private static Logger logger = LoggerFactory.getLogger(DemoThbcmpCallback.class);
 
     @Override
     public byte[] receiveAmopMsg(ThbcmpMsgIn msg) {
@@ -46,7 +46,7 @@ public class DemoAmopCallback extends ThbcmpCallback {
                 getFileFromBytes(fileContent, filename);
                 System.out.println("|---save file:" + filename + " success");
                 byte[] responseData = "Yes, I received!".getBytes();
-                if (msg.getType() == (short) MsgType.AMOP_REQUEST.getType()) {
+                if (msg.getType() == (short) MsgType.THBCMP_REQUEST.getType()) {
                     System.out.println(
                             "|---response, time: "
                                     + df.format(LocalDateTime.now())
@@ -66,7 +66,7 @@ public class DemoAmopCallback extends ThbcmpCallback {
                         + msg.getTopic()
                         + " content:"
                         + new String(msg.getContent()));
-        if (msg.getType() == (short) MsgType.AMOP_REQUEST.getType()) {
+        if (msg.getType() == (short) MsgType.THBCMP_REQUEST.getType()) {
             System.out.println(
                     "|---response, time: "
                             + df.format(LocalDateTime.now())

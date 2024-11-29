@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.perf;
+package org.tianhe.thbc.sdk.demo.thbcmp.perf;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
@@ -6,8 +6,8 @@ import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class AmopMsgCollector {
-    private static Logger logger = LoggerFactory.getLogger(AmopMsgCollector.class);
+public class ThbcmpMsgCollector {
+    private static Logger logger = LoggerFactory.getLogger(ThbcmpMsgCollector.class);
     private AtomicLong less500 = new AtomicLong(0);
     private AtomicLong less1000 = new AtomicLong(0);
     private AtomicLong less2000 = new AtomicLong(0);

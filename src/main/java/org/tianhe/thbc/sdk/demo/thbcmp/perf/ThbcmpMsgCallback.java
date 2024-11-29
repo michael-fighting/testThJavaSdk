@@ -1,14 +1,14 @@
-package org.tianhe.thbc.sdk.demo.amop.perf;
+package org.tianhe.thbc.sdk.demo.thbcmp.perf;
 
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
 import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 
-public class AmopMsgCallback extends ThbcmpCallback {
+public class ThbcmpMsgCallback extends ThbcmpCallback {
     private Long startTime = System.currentTimeMillis();
 
-    private AmopMsgCollector collector = new AmopMsgCollector();
+    private ThbcmpMsgCollector collector = new ThbcmpMsgCollector();
 
-    public AmopMsgCollector getCollector() {
+    public ThbcmpMsgCollector getCollector() {
         return collector;
     }
 

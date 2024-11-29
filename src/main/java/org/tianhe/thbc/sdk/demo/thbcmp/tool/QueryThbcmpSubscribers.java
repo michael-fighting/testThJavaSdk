@@ -1,14 +1,14 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import org.tianhe.thbc.sdk.ThbcSDK;
 import org.tianhe.thbc.sdk.client.Client;
 import org.tianhe.thbc.sdk.client.protocol.response.NodeInfo;
 import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 
-public class QueryAmopSubscribers {
+public class QueryThbcmpSubscribers {
     private static final int parameterNum = 1;
     private static String publisherFile =
-            QueryAmopSubscribers.class
+            QueryThbcmpSubscribers.class
                     .getClassLoader()
                     .getResource("amop/config-full.toml")
                     .getPath();

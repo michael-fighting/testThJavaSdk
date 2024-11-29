@@ -1,15 +1,15 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import java.net.URL;
 import org.tianhe.thbc.sdk.ThbcSDK;
 import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
 
-public class AmopSubscriber {
+public class ThbcmpSubscriber {
 
     public static void main(String[] args) throws Exception {
         URL configUrl =
-                AmopSubscriber.class
+                ThbcmpSubscriber.class
                         .getClassLoader()
                         .getResource("amop/config-subscriber-for-test.toml");
         if (args.length < 1) {
@@ -24,7 +24,7 @@ public class AmopSubscriber {
         Thbcmp amop = sdk.getThbcmp();
 
         // Set callback
-        ThbcmpCallback cb = new DemoAmopCallback();
+        ThbcmpCallback cb = new DemoThbcmpCallback();
         // Set a default callback
         amop.setCallback(cb);
         // Subscriber a normal topic

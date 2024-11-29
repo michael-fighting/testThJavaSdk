@@ -1,5 +1,10 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
+import static org.tianhe.thbc.sdk.demo.thbcmp.tool.FileToByteArrayHelper.byteCat;
+import static org.tianhe.thbc.sdk.demo.thbcmp.tool.FileToByteArrayHelper.getFileByteArray;
+import static org.tianhe.thbc.sdk.demo.thbcmp.tool.FileToByteArrayHelper.intToByteArray;
+
+import java.io.File;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -13,33 +18,37 @@ import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 import org.tianhe.thbc.sdk.crypto.keystore.KeyTool;
 import org.tianhe.thbc.sdk.crypto.keystore.PEMKeyStore;
 
-public class AmopPublisherPrivate {
+public class ThbcmpPublisherPrivateFile {
     private static final int parameterNum = 6;
     private static String publisherFile =
-            AmopPublisherPrivate.class
+            ThbcmpPublisherPrivateFile.class
                     .getClassLoader()
                     .getResource("amop/config-publisher-for-test.toml")
                     .getPath();
 
     /**
-     * @param args topicName, pubKey1, pubKey2, isBroadcast: true/false, content, count. if only one
-     *     public key please fill pubKey2 with null
-     * @throws Exception AMOP exceptioned
+     * @param args topicName, pubKey1, pubKey2, isBroadcast: true/false, fileName, count, timeout.
+     *     if only one public key please fill pubKey2 with null
+     * @throws Exception the exception
      */
     public static void main(String[] args) throws Exception {
         if (args.length < parameterNum) {
-            System.out.println(
-                    "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.AmopPublisherPrivate <topicName> <pubKey1> <pubKey2> <isBroadcast: true/false> <content> <count>");
+            System.out.println("param: target topic total number of request");
             return;
         }
         String topicName = args[0];
         String pubkey1 = args[1];
         String pubkey2 = args[2];
         Boolean isBroadcast = Boolean.valueOf(args[3]);
-        String content = args[4];
+        String fileName = args[4];
         Integer count = Integer.parseInt(args[5]);
+        Integer timeout = 6000;
+        if (args.length > 6) {
+            timeout = Integer.parseInt(args[6]);
+        }
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
+        // todo setup topic
 
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -55,17 +64,14 @@ public class AmopPublisherPrivate {
         System.out.println("start test");
         System.out.println("===================================================================");
         System.out.println("set up private topic");
-        List<KeyTool> keyToolList = new ArrayList<>();
-
-        // Read public key files.
-        KeyTool keyTool = new PEMKeyStore(pubkey1);
-        keyToolList.add(keyTool);
+        List<KeyTool> kml = new ArrayList<>();
+        KeyTool km1 = new PEMKeyStore(pubkey1);
+        kml.add(km1);
         if (!pubkey2.equals("null")) {
-            KeyTool keyTool1 = new PEMKeyStore(pubkey2);
-            keyToolList.add(keyTool1);
+            KeyTool km2 = new PEMKeyStore(pubkey2);
+            kml.add(km2);
         }
-        // Publish a private topic
-        amop.publishPrivateTopic(topicName, keyToolList);
+        thbcmp.publishPrivateTopic(topicName, kml);
         System.out.println("wait until finish private topic verify");
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -74,35 +80,35 @@ public class AmopPublisherPrivate {
         System.out.println("1s ...");
         Thread.sleep(1000);
 
+        int flag = -128;
+        byte[] byteflag = intToByteArray(flag);
+        int filelength = fileName.length();
+        byte[] bytelength = intToByteArray(filelength);
+        byte[] bytefilename = fileName.getBytes();
+        byte[] contentfile = getFileByteArray(new File(fileName));
+        byte[] content = byteCat(byteCat(byteCat(byteflag, bytelength), bytefilename), contentfile);
+
         for (Integer i = 0; i < count; ++i) {
             Thread.sleep(2000);
             ThbcmpMsgOut out = new ThbcmpMsgOut();
-            // It is a private topic.
             out.setType(TopicType.PRIVATE_TOPIC);
-            out.setContent(content.getBytes());
-            out.setTimeout(6000);
+            out.setContent(content);
+            out.setTimeout(timeout);
             out.setTopic(topicName);
-            DemoAmopResponseCallback cb = new DemoAmopResponseCallback();
-            DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             if (isBroadcast) {
-                amop.broadcastAmopMsg(out);
-                System.out.println(
-                        "Step 1: Send out msg by broadcast,  time: "
-                                + df.format(LocalDateTime.now())
-                                + " topic:"
-                                + out.getTopic()
-                                + " content:"
-                                + new String(out.getContent()));
+                thbcmp.broadcastThbcmpMsg(out);
             } else {
-                amop.sendAmopMsg(out, cb);
-                System.out.println(
-                        "Step 1: Send out msg,  time: "
-                                + df.format(LocalDateTime.now())
-                                + " topic:"
-                                + out.getTopic()
-                                + " content:"
-                                + new String(out.getContent()));
+                thbcmp.sendThbcmpMsg(out, cb);
             }
+            DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            System.out.println(
+                    "Step 1: Send out msg, time: "
+                            + df.format(LocalDateTime.now())
+                            + " topic:"
+                            + out.getTopic()
+                            + " content: file "
+                            + fileName);
         }
     }
 

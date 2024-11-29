@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.perf;
+package org.tianhe.thbc.sdk.demo.thbcmp.perf;
 
 import com.google.common.util.concurrent.RateLimiter;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -19,7 +19,7 @@ public class PerformanceAmop {
                     .getResource("amop/config-subscriber-for-test.toml")
                     .getPath();
     private static AtomicInteger sendedMsg = new AtomicInteger(0);
-    private static AmopMsgBuilder msgBuilder = new AmopMsgBuilder();
+    private static ThbcmpMsgBuilder msgBuilder = new ThbcmpMsgBuilder();
 
     /** @param args count, qps, msgSize */
     public static void main(String[] args) {
@@ -31,8 +31,8 @@ public class PerformanceAmop {
             // Init subscriber
             String topic = "normalTopic";
             Thbcmp subscriber = ThbcSDK.build(subscriberConfig).getThbcmp();
-            AmopMsgCallback cb = new AmopMsgCallback();
-            AmopMsgCollector collector = cb.getCollector();
+            ThbcmpMsgCallback cb = new ThbcmpMsgCallback();
+            ThbcmpMsgCollector collector = cb.getCollector();
             collector.setTotal(count);
             subscriber.subscribeTopic(topic, cb);
             subscriber.setCallback(cb);

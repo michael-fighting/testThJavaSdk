@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import java.io.File;
 import java.io.FileInputStream;

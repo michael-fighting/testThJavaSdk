@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.perf;
+package org.tianhe.thbc.sdk.demo.thbcmp.perf;
 
 import java.util.Random;
 import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
@@ -7,10 +7,10 @@ import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponse;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponseCallback;
 import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 
-public class AmopMsgBuilder {
+public class ThbcmpMsgBuilder {
 
     public void sendMsg(
-            AmopMsgCollector collector, Thbcmp sender, String topic, TopicType type, int contentLen) {
+            ThbcmpMsgCollector collector, Thbcmp sender, String topic, TopicType type, int contentLen) {
         ThbcmpMsgOut out = new ThbcmpMsgOut();
         out.setTopic(topic);
         out.setType(type);

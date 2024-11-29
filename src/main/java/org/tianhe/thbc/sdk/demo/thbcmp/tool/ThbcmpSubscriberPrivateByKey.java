@@ -1,4 +1,4 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -18,26 +18,26 @@ import org.tianhe.thbc.sdk.client.Client;
 import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 import org.tianhe.thbc.sdk.crypto.keypair.ECDSAKeyPair;
 
-public class AmopSubscriberPrivateByKey {
+public class ThbcmpSubscriberPrivateByKey {
     private static String subscriberConfigFile =
-            AmopSubscriberPrivate.class
+            ThbcmpSubscriberPrivate.class
                     .getClassLoader()
                     .getResource("amop/config-subscriber-for-test.toml")
                     .getPath();
 
     private static String publisherFile =
-            AmopPublisherPrivate.class
+            ThbcmpPublisherPrivate.class
                     .getClassLoader()
                     .getResource("amop/config-publisher-for-test.toml")
                     .getPath();
 
     public static void Usage() {
         System.out.println(
-                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.AmopSubscriberPrivateByKey generateKeyFile keyFileName");
+                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivateByKey generateKeyFile keyFileName");
         System.out.println(
-                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.AmopSubscriberPrivateByKey subscribe topicName privateKeyFile");
+                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivateByKey subscribe topicName privateKeyFile");
         System.out.println(
-                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.AmopSubscriberPrivateByKey publish [topicName] [isBroadcast: true/false] [sendedContent] [count] [publicKeyFile1] [publicKeyFile2] ...");
+                "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivateByKey publish [topicName] [isBroadcast: true/false] [sendedContent] [count] [publicKeyFile1] [publicKeyFile2] ...");
         System.out.println();
         System.exit(0);
     }
@@ -95,7 +95,7 @@ public class AmopSubscriberPrivateByKey {
         }
         ThbcSDK sdk = ThbcSDK.build(subscriberConfigFile);
         Thbcmp amop = sdk.getThbcmp();
-        ThbcmpCallback cb = new DemoAmopCallback();
+        ThbcmpCallback cb = new DemoThbcmpCallback();
 
         System.out.println("Start test");
         amop.setCallback(cb);
@@ -163,7 +163,7 @@ public class AmopSubscriberPrivateByKey {
             out.setContent(content.getBytes());
             out.setTimeout(6000);
             out.setTopic(topicName);
-            DemoAmopResponseCallback cb = new DemoAmopResponseCallback();
+            DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             if (isBroadcast) {
                 amop.broadcastAmopMsg(out);

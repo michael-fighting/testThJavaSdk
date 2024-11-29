@@ -1,8 +1,8 @@
-package org.tianhe.thbc.sdk.demo.amop.tool;
+package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
-import static org.tianhe.thbc.sdk.demo.amop.tool.FileToByteArrayHelper.byteCat;
-import static org.tianhe.thbc.sdk.demo.amop.tool.FileToByteArrayHelper.getFileByteArray;
-import static org.tianhe.thbc.sdk.demo.amop.tool.FileToByteArrayHelper.intToByteArray;
+import static org.tianhe.thbc.sdk.demo.thbcmp.tool.FileToByteArrayHelper.byteCat;
+import static org.tianhe.thbc.sdk.demo.thbcmp.tool.FileToByteArrayHelper.getFileByteArray;
+import static org.tianhe.thbc.sdk.demo.thbcmp.tool.FileToByteArrayHelper.intToByteArray;
 
 import java.io.File;
 import java.time.LocalDateTime;
@@ -14,10 +14,10 @@ import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 import org.tianhe.thbc.sdk.client.Client;
 import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 
-public class AmopPublisherFile {
+public class ThbcmpPublisherFile {
     private static final int parameterNum = 4;
     private static String publisherFile =
-            AmopPublisherFile.class
+            ThbcmpPublisherFile.class
                     .getClassLoader()
                     .getResource("amop/config-publisher-for-test.toml")
                     .getPath();
@@ -71,7 +71,7 @@ public class AmopPublisherFile {
             out.setContent(content);
             out.setTimeout(timeout);
             out.setTopic(topicName);
-            DemoAmopResponseCallback cb = new DemoAmopResponseCallback();
+            DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             if (isBroadcast) {
                 amop.broadcastAmopMsg(out);
             } else {
