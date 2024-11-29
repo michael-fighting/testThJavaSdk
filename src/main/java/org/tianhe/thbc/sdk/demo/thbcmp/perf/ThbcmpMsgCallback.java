@@ -13,7 +13,7 @@ public class ThbcmpMsgCallback extends ThbcmpCallback {
     }
 
     @Override
-    public byte[] receiveAmopMsg(ThbcmpMsgIn msg) {
+    public byte[] receiveThbcmpMsg(ThbcmpMsgIn msg) {
         Long cost = System.currentTimeMillis() - startTime;
         collector.onSubscribedTopicMsg(msg, cost);
         return "Yes, I received!".getBytes();

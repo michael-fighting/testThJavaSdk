@@ -20,7 +20,7 @@ public class ThbcmpMsgBuilder {
         ThbcmpResponseCallback callback =
                 new ThbcmpResponseCallback() {
                     @Override
-                    public void onResponse(ThcmpResponse response) {
+                    public void onResponse(ThbcmpResponse response) {
                         collector.addResponse();
                         if (response.getErrorCode() != 0) {
                             System.out.println(

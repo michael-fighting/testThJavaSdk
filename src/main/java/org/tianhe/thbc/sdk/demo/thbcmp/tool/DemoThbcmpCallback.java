@@ -19,7 +19,7 @@ public class DemoThbcmpCallback extends ThbcmpCallback {
     private static Logger logger = LoggerFactory.getLogger(DemoThbcmpCallback.class);
 
     @Override
-    public byte[] receiveAmopMsg(ThbcmpMsgIn msg) {
+    public byte[] receiveThbcmpMsg(ThbcmpMsgIn msg) {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         if (msg.getContent().length > 8) {
             byte[] content = msg.getContent();
