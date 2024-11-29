@@ -8,7 +8,7 @@ import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponseCallback;
 public class DemoAmopResponseCallback extends AmopResponseCallback {
 
     @Override
-    public void onResponse(AmopResponse response) {
+    public void onResponse(ThbcmpResponse response) {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         if (response.getErrorCode() == 102) {
             System.out.println(

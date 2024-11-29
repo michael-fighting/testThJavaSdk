@@ -15,11 +15,11 @@ import org.tianhe.thbc.sdk.model.MsgType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DemoAmopCallback extends AmopCallback {
+public class DemoAmopCallback extends ThbcmpCallback {
     private static Logger logger = LoggerFactory.getLogger(DemoAmopCallback.class);
 
     @Override
-    public byte[] receiveAmopMsg(AmopMsgIn msg) {
+    public byte[] receiveAmopMsg(ThbcmpMsgIn msg) {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         if (msg.getContent().length > 8) {
             byte[] content = msg.getContent();

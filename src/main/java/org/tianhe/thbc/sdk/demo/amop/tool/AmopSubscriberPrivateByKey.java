@@ -94,8 +94,8 @@ public class AmopSubscriberPrivateByKey {
             return;
         }
         ThbcSDK sdk = ThbcSDK.build(subscriberConfigFile);
-        Amop amop = sdk.getAmop();
-        AmopCallback cb = new DemoAmopCallback();
+        Thbcmp amop = sdk.getThbcmp();
+        ThbcmpCallback cb = new DemoAmopCallback();
 
         System.out.println("Start test");
         amop.setCallback(cb);
@@ -137,7 +137,7 @@ public class AmopSubscriberPrivateByKey {
             return;
         }
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Amop amop = sdk.getAmop();
+        Thbcmp amop = sdk.getThbcmp();
         if (!subscribed(sdk, topicName)) {
             System.out.println("No subscriber, exist.");
         }
@@ -157,7 +157,7 @@ public class AmopSubscriberPrivateByKey {
 
         for (Integer i = 0; i < count; ++i) {
             Thread.sleep(2000);
-            AmopMsgOut out = new AmopMsgOut();
+            ThbcmpMsgOut out = new ThbcmpMsgOut();
             // It is a private topic.
             out.setType(TopicType.PRIVATE_TOPIC);
             out.setContent(content.getBytes());

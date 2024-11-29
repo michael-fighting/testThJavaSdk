@@ -37,7 +37,7 @@ public class AmopPublisherFile {
         String fileName = args[2];
         Integer count = Integer.parseInt(args[3]);
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Amop amop = sdk.getAmop();
+        Thbcmp amop = sdk.getThbcmp();
         Integer timeout = 6000;
         if (args.length > 4) {
             timeout = Integer.parseInt(args[4]);
@@ -66,7 +66,7 @@ public class AmopPublisherFile {
 
         for (Integer i = 0; i < count; ++i) {
             Thread.sleep(2000);
-            AmopMsgOut out = new AmopMsgOut();
+            ThbcmpMsgOut out = new ThbcmpMsgOut();
             out.setType(TopicType.NORMAL_TOPIC);
             out.setContent(content);
             out.setTimeout(timeout);
