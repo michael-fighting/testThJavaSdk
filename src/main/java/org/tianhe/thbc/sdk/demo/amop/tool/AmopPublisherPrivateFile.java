@@ -47,7 +47,7 @@ public class AmopPublisherPrivateFile {
             timeout = Integer.parseInt(args[6]);
         }
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Amop amop = sdk.getAmop();
+        Thbcmp amop = sdk.getThbcmp();
         // todo setup topic
 
         System.out.println("3s ...");
@@ -90,7 +90,7 @@ public class AmopPublisherPrivateFile {
 
         for (Integer i = 0; i < count; ++i) {
             Thread.sleep(2000);
-            AmopMsgOut out = new AmopMsgOut();
+            ThbcmpMsgOut out = new ThbcmpMsgOut();
             out.setType(TopicType.PRIVATE_TOPIC);
             out.setContent(content);
             out.setTimeout(timeout);

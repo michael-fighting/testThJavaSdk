@@ -30,7 +30,7 @@ public class PerformanceAmop {
 
             // Init subscriber
             String topic = "normalTopic";
-            Thbcmp subscriber = ThbcSDK.build(subscriberConfig).getAmop();
+            Thbcmp subscriber = ThbcSDK.build(subscriberConfig).getThbcmp();
             AmopMsgCallback cb = new AmopMsgCallback();
             AmopMsgCollector collector = cb.getCollector();
             collector.setTotal(count);
@@ -38,7 +38,7 @@ public class PerformanceAmop {
             subscriber.setCallback(cb);
 
             // Init publisher
-            Thbcmp sender = ThbcSDK.build(senderConfig).getAmop();
+            Thbcmp sender = ThbcSDK.build(senderConfig).getThbcmp();
 
             System.out.println("Start test");
             Thread.sleep(2000);

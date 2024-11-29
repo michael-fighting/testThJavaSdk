@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponse;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponseCallback;
 
-public class DemoAmopResponseCallback extends AmopResponseCallback {
+public class DemoAmopResponseCallback extends ThbcmpResponseCallback {
 
     @Override
     public void onResponse(ThbcmpResponse response) {

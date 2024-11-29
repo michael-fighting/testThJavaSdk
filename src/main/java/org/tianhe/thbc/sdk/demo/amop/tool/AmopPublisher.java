@@ -32,7 +32,7 @@ public class AmopPublisher {
         String content = args[2];
         Integer count = Integer.parseInt(args[3]);
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Amop amop = sdk.getAmop();
+        Thbcmp amop = sdk.getThbcmp();
 
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -50,7 +50,7 @@ public class AmopPublisher {
 
         for (Integer i = 0; i < count; ++i) {
             Thread.sleep(2000);
-            AmopMsgOut out = new AmopMsgOut();
+            ThbcmpMsgOut out = new ThbcmpMsgOut();
             out.setType(TopicType.NORMAL_TOPIC);
             out.setContent(content.getBytes());
             out.setTimeout(6000);

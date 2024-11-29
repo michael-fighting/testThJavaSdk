@@ -27,8 +27,8 @@ public class AmopSubscriberPrivate {
         String topic = args[0];
         String privateKeyFile = args[1];
         ThbcSDK sdk = ThbcSDK.build(subscriberConfigFile);
-        Amop amop = sdk.getAmop();
-        AmopCallback cb = new DemoAmopCallback();
+        Thbcmp amop = sdk.getThbcmp();
+        ThbcmpCallback cb = new DemoAmopCallback();
 
         System.out.println("Start test");
         amop.setCallback(cb);

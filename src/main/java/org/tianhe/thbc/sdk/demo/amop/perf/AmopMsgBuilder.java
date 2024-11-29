@@ -32,7 +32,7 @@ public class AmopMsgBuilder {
                         }
                     }
                 };
-        sender.sendAmopMsg(out, callback);
+        sender.sendThbcmpMsg(out, callback);
     }
 
     public byte[] getRandomBytes(int len) {

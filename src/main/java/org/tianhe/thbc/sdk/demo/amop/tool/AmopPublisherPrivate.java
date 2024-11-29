@@ -39,7 +39,7 @@ public class AmopPublisherPrivate {
         String content = args[4];
         Integer count = Integer.parseInt(args[5]);
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Amop amop = sdk.getAmop();
+        Thbcmp amop = sdk.getThbcmp();
 
         System.out.println("3s ...");
         Thread.sleep(1000);
@@ -76,7 +76,7 @@ public class AmopPublisherPrivate {
 
         for (Integer i = 0; i < count; ++i) {
             Thread.sleep(2000);
-            AmopMsgOut out = new AmopMsgOut();
+            ThbcmpMsgOut out = new ThbcmpMsgOut();
             // It is a private topic.
             out.setType(TopicType.PRIVATE_TOPIC);
             out.setContent(content.getBytes());

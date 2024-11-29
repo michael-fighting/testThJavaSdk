@@ -21,10 +21,10 @@ public class AmopSubscriber {
         ThbcSDK sdk = ThbcSDK.build(configUrl.getPath());
 
         // Get the amop module instance
-        Amop amop = sdk.getAmop();
+        Thbcmp amop = sdk.getThbcmp();
 
         // Set callback
-        AmopCallback cb = new DemoAmopCallback();
+        ThbcmpCallback cb = new DemoAmopCallback();
         // Set a default callback
         amop.setCallback(cb);
         // Subscriber a normal topic
