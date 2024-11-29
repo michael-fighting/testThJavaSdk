@@ -4,7 +4,7 @@ import com.google.common.util.concurrent.RateLimiter;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.tianhe.thbc.sdk.ThbcSDK;
 import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
-import org.tianhe.thbc.sdk.amop.topic.TopicType;
+import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 import org.tianhe.thbc.sdk.utils.ThreadPoolService;
 
 public class PerformanceAmop {

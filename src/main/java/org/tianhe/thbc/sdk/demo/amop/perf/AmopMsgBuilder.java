@@ -5,7 +5,7 @@ import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpMsgOut;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponse;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpResponseCallback;
-import org.tianhe.thbc.sdk.amop.topic.TopicType;
+import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 
 public class AmopMsgBuilder {
 

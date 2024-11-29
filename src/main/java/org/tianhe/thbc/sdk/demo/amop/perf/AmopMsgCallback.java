@@ -1,7 +1,7 @@
 package org.tianhe.thbc.sdk.demo.amop.perf;
 
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
-import org.tianhe.thbc.sdk.amop.topic.AmopMsgIn;
+import org.tianhe.thbc.sdk.thbcmp.topic.AmopMsgIn;
 
 public class AmopMsgCallback extends AmopCallback {
     private Long startTime = System.currentTimeMillis();
