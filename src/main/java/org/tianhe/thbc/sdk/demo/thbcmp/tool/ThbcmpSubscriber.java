@@ -11,7 +11,7 @@ public class ThbcmpSubscriber {
         URL configUrl =
                 ThbcmpSubscriber.class
                         .getClassLoader()
-                        .getResource("amop/config-subscriber-for-test.toml");
+                        .getResource("thbcmp/config-subscriber-for-test.toml");
         if (args.length < 1) {
             System.out.println("Param: topic");
             return;
@@ -20,15 +20,15 @@ public class ThbcmpSubscriber {
         // Construct a ThbcSDK instance
         ThbcSDK sdk = ThbcSDK.build(configUrl.getPath());
 
-        // Get the amop module instance
-        Thbcmp amop = sdk.getThbcmp();
+        // Get the thbcmp module instance
+        Thbcmp thbcmp = sdk.getThbcmp();
 
         // Set callback
         ThbcmpCallback cb = new DemoThbcmpCallback();
         // Set a default callback
-        amop.setCallback(cb);
+        thbcmp.setCallback(cb);
         // Subscriber a normal topic
-        amop.subscribeTopic(topic, cb);
+        v.subscribeTopic(topic, cb);
         System.out.println("Start test");
     }
 }

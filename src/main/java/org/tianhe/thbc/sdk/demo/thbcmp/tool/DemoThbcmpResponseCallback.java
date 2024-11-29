@@ -14,7 +14,7 @@ public class DemoThbcmpResponseCallback extends ThbcmpResponseCallback {
             System.out.println(
                     "Step 3: Timeout, maybe your file is too large or your gave a short timeout. Add a timeout arg, topicName, isBroadcast: true/false, fileName, count, timeout");
         } else {
-            if (response.getAmopMsgIn() != null) {
+            if (response.getThbcmpMsgIn() != null) {
                 System.out.println(
                         "Step 3: Get response, time: "
                                 + df.format(LocalDateTime.now())
@@ -25,7 +25,7 @@ public class DemoThbcmpResponseCallback extends ThbcmpResponseCallback {
                                 + " seq:"
                                 + response.getMessageID()
                                 + " content:"
-                                + new String(response.getAmopMsgIn().getContent())
+                                + new String(response.getThbcmpMsgIn().getContent())
                                 + " }");
             } else {
                 System.out.println(

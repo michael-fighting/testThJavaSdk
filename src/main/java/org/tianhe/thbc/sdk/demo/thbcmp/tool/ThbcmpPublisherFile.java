@@ -19,13 +19,13 @@ public class ThbcmpPublisherFile {
     private static String publisherFile =
             ThbcmpPublisherFile.class
                     .getClassLoader()
-                    .getResource("amop/config-publisher-for-test.toml")
+                    .getResource("thbcmp/config-publisher-for-test.toml")
                     .getPath();
 
     /**
      * @param args topicName, isBroadcast: true/false, fileName, count, ipAndPort(one of the node
      *     you connected)
-     * @throws Exception AMOP publish exceptioned
+     * @throws Exception THBCMP publish exceptioned
      */
     public static void main(String[] args) throws Exception {
         if (args.length < parameterNum) {
@@ -37,7 +37,7 @@ public class ThbcmpPublisherFile {
         String fileName = args[2];
         Integer count = Integer.parseInt(args[3]);
         ThbcSDK sdk = ThbcSDK.build(publisherFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
         Integer timeout = 6000;
         if (args.length > 4) {
             timeout = Integer.parseInt(args[4]);
@@ -73,9 +73,9 @@ public class ThbcmpPublisherFile {
             out.setTopic(topicName);
             DemoThbcmpResponseCallback cb = new DemoThbcmpResponseCallback();
             if (isBroadcast) {
-                amop.broadcastAmopMsg(out);
+                thbcmp.broadcastThbcmpMsg(out);
             } else {
-                amop.sendAmopMsg(out, cb);
+                thbcmp.sendThbcmpMsg(out, cb);
             }
             DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             System.out.println(
