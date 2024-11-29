@@ -79,6 +79,7 @@ task integrationTest(type: Test) {
 }
 
 dependencies {
+    implementation 'commons-io:commons-io:2.11.0'
     implementation files('./tianhe-thbc-java-sdk-1.0.1.jar')
     //compile ("org.tianhe-thbc-java-sdk:tianhe-thbc-java-sdk-1.0.1")    
     //compile ("org.fisco-bcos.java-sdk:fisco-bcos-java-sdk:${javaSDKVersion}")
