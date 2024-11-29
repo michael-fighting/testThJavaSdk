@@ -58,13 +58,13 @@ $ cd dist
 # 将需要转换为java代码的sol文件拷贝到dist/contracts/solidity路径下
 # 转换sol, 其中${packageName}是生成的java代码包路径
 # 生成的java代码位于 /dist/contracts/sdk/java目录下
-$ java -cp "apps/*:lib/*:conf/" org.fisco.bcos.sdk.demo.codegen.DemoSolcToJava ${packageName}
+$ java -cp "apps/*:lib/*:conf/" codegen.org.tianhe.thbc.sdk.demo.DemoSolcToJava ${packageName}
 
 # 压测串行转账合约:
 # count: 压测的交易总量
 # tps: 压测QPS
 # groupId: 压测的群组ID
-java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.PerformanceOk [count] [tps] [groupId]
+java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.PerformanceOk [count] [tps] [groupId]
 
 # 压测并行转账合约
 # --------------------------
@@ -73,19 +73,19 @@ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.PerformanceOk [count]
 # count: 压测的交易总量
 # tps: 压测QPS
 # file: 保存生成账户的文件名
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.ParallelOkPerf [parallelok] [groupID] [add] [count] [tps] [file]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.ParallelOkPerf [parallelok] [groupID] [add] [count] [tps] [file]
 # 基于Precompiled并行合约precompiled添加账户
 # (参数含义同上)
-java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.ParallelOkPerf [precompiled] [groupID] [add] [count] [tps] [file]
+java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.ParallelOkPerf [precompiled] [groupID] [add] [count] [tps] [file]
 # --------------------------
 # 基于Solidity并行合约parallelok发起转账交易压测
 # groupID: 压测的群组ID
 # count: 压测的交易总量
 # tps: 压测的QPS
 # file: 转账用户文件
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.ParallelOkPerf [parallelok] [groupID] [transfer] [count] [tps] [file]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.ParallelOkPerf [parallelok] [groupID] [transfer] [count] [tps] [file]
 # 基于Precompiled并行合约Precompiled发起转账压测
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.ParallelOkPerf [precompiled] [groupID] [transfer] [count] [tps] [file]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.ParallelOkPerf [precompiled] [groupID] [transfer] [count] [tps] [file]
 
 
 # CRUD合约压测
@@ -93,16 +93,16 @@ $ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.ParallelOkPerf [pre
 # count: 压测的交易总量
 # tps: 压测QPS
 # groupId: 压测群组
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.PerformanceTable [insert] [count] [tps] [groupId]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.PerformanceTable [insert] [count] [tps] [groupId]
 # 压测CRUD update
 # (参数解释同上)
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.PerformanceTable [update] [count] [tps] [groupId]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.PerformanceTable [update] [count] [tps] [groupId]
 # 压测CRUD remove
 # (参数解释同上)
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.PerformanceTable [remove] [count] [tps] [groupId]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.PerformanceTable [remove] [count] [tps] [groupId]
 # 压测CRUD query
 # (参数解释同上)
-$ java -cp 'conf/:lib/*:apps/*' org.fisco.bcos.sdk.demo.perf.PerformanceTable [query] [count] [tps] [groupId]
+$ java -cp 'conf/:lib/*:apps/*' perf.org.tianhe.thbc.sdk.demo.PerformanceTable [query] [count] [tps] [groupId]
 ```
 
 ## 贡献代码
