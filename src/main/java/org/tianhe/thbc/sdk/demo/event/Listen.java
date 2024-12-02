@@ -4,6 +4,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Semaphore;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tianhe.thbc.sdk.ThbcSDK;
 import org.tianhe.thbc.sdk.client.Client;
 import org.tianhe.thbc.sdk.eventsub.EventCallback;
@@ -11,8 +13,6 @@ import org.tianhe.thbc.sdk.eventsub.EventLogParams;
 import org.tianhe.thbc.sdk.eventsub.EventSubscribe;
 import org.tianhe.thbc.sdk.model.ConstantConfig;
 import org.tianhe.thbc.sdk.model.EventLog;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class Listen {
 

@@ -1,11 +1,11 @@
 package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 
 import org.tianhe.thbc.sdk.ThbcSDK;
-import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
-import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
 import org.tianhe.thbc.sdk.crypto.keystore.KeyTool;
 import org.tianhe.thbc.sdk.crypto.keystore.P12KeyStore;
 import org.tianhe.thbc.sdk.crypto.keystore.PEMKeyStore;
+import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
+import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
 
 public class ThbcmpSubscriberPrivate {
     private static String subscriberConfigFile =

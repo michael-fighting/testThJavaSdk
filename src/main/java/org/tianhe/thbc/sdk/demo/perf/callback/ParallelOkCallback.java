@@ -14,13 +14,13 @@
 package org.tianhe.thbc.sdk.demo.perf.callback;
 
 import java.math.BigInteger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tianhe.thbc.sdk.demo.perf.collector.PerformanceCollector;
 import org.tianhe.thbc.sdk.demo.perf.model.DagTransferUser;
 import org.tianhe.thbc.sdk.demo.perf.model.DagUserInfo;
 import org.tianhe.thbc.sdk.model.TransactionReceipt;
 import org.tianhe.thbc.sdk.model.callback.TransactionCallback;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class ParallelOkCallback extends TransactionCallback {
     private static Logger logger = LoggerFactory.getLogger(ParallelOkCallback.class);

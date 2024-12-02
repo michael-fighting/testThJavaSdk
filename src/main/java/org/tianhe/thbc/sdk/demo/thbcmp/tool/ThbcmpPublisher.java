@@ -3,11 +3,11 @@ package org.tianhe.thbc.sdk.demo.thbcmp.tool;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import org.tianhe.thbc.sdk.ThbcSDK;
+import org.tianhe.thbc.sdk.client.Client;
+import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpMsgOut;
 import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
-import org.tianhe.thbc.sdk.client.Client;
-import org.tianhe.thbc.sdk.client.protocol.response.Peers;
 
 public class ThbcmpPublisher {
     private static final int parameterNum = 4;

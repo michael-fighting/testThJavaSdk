@@ -10,7 +10,11 @@ import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 public class ThbcmpMsgBuilder {
 
     public void sendMsg(
-            ThbcmpMsgCollector collector, Thbcmp sender, String topic, TopicType type, int contentLen) {
+            ThbcmpMsgCollector collector,
+            Thbcmp sender,
+            String topic,
+            TopicType type,
+            int contentLen) {
         ThbcmpMsgOut out = new ThbcmpMsgOut();
         out.setTopic(topic);
         out.setType(type);

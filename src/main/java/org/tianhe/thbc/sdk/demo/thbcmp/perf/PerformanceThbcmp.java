@@ -53,7 +53,8 @@ public class PerformanceThbcmp {
             RateLimiter limiter = RateLimiter.create(qps);
             Integer area = count / 10;
             final Integer total = count;
-            ThreadPoolService threadPoolService = new ThreadPoolService("Performancethbcmp", 102400);
+            ThreadPoolService threadPoolService =
+                    new ThreadPoolService("Performancethbcmp", 102400);
 
             for (Integer i = 0; i < count; i++) {
                 limiter.acquire();

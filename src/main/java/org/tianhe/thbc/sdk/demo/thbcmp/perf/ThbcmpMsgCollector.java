@@ -2,9 +2,9 @@ package org.tianhe.thbc.sdk.demo.thbcmp.perf;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
-import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 
 public class ThbcmpMsgCollector {
     private static Logger logger = LoggerFactory.getLogger(ThbcmpMsgCollector.class);

@@ -18,6 +18,8 @@ import java.math.BigInteger;
 import java.net.URL;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tianhe.thbc.sdk.ThbcSDK;
 import org.tianhe.thbc.sdk.ThbcSDKException;
 import org.tianhe.thbc.sdk.client.Client;
@@ -28,8 +30,6 @@ import org.tianhe.thbc.sdk.model.ConstantConfig;
 import org.tianhe.thbc.sdk.model.TransactionReceipt;
 import org.tianhe.thbc.sdk.transaction.model.exception.ContractException;
 import org.tianhe.thbc.sdk.utils.ThreadPoolService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class PerformanceOkD {
     private static Logger logger = LoggerFactory.getLogger(PerformanceOkD.class);

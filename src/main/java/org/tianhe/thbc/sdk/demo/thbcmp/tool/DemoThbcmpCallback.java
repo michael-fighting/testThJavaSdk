@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
-import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
-import org.tianhe.thbc.sdk.model.MsgType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.tianhe.thbc.sdk.model.MsgType;
+import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
+import org.tianhe.thbc.sdk.thbcmp.topic.ThbcmpMsgIn;
 
 public class DemoThbcmpCallback extends ThbcmpCallback {
     private static Logger logger = LoggerFactory.getLogger(DemoThbcmpCallback.class);

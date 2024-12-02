@@ -10,13 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.tianhe.thbc.sdk.ThbcSDK;
+import org.tianhe.thbc.sdk.client.Client;
+import org.tianhe.thbc.sdk.client.protocol.response.Peers;
+import org.tianhe.thbc.sdk.crypto.keypair.ECDSAKeyPair;
 import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpCallback;
 import org.tianhe.thbc.sdk.thbcmp.ThbcmpMsgOut;
 import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
-import org.tianhe.thbc.sdk.client.Client;
-import org.tianhe.thbc.sdk.client.protocol.response.Peers;
-import org.tianhe.thbc.sdk.crypto.keypair.ECDSAKeyPair;
 
 public class ThbcmpSubscriberPrivateByKey {
     private static String subscriberConfigFile =

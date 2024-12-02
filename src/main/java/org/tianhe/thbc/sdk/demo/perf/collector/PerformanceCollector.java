@@ -15,10 +15,10 @@ package org.tianhe.thbc.sdk.demo.perf.collector;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
-import org.tianhe.thbc.sdk.model.JsonRpcResponse;
-import org.tianhe.thbc.sdk.model.TransactionReceipt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.tianhe.thbc.sdk.model.JsonRpcResponse;
+import org.tianhe.thbc.sdk.model.TransactionReceipt;
 
 public class PerformanceCollector {
     private static Logger logger = LoggerFactory.getLogger(PerformanceCollector.class);

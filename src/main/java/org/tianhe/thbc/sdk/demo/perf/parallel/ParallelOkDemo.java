@@ -21,6 +21,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tianhe.thbc.sdk.demo.contract.ParallelOk;
 import org.tianhe.thbc.sdk.demo.perf.callback.ParallelOkCallback;
 import org.tianhe.thbc.sdk.demo.perf.collector.PerformanceCollector;
@@ -29,8 +31,6 @@ import org.tianhe.thbc.sdk.demo.perf.model.DagUserInfo;
 import org.tianhe.thbc.sdk.model.TransactionReceipt;
 import org.tianhe.thbc.sdk.transaction.model.exception.ContractException;
 import org.tianhe.thbc.sdk.utils.ThreadPoolService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class ParallelOkDemo {
     private static final Logger logger = LoggerFactory.getLogger(ParallelOkDemo.class);
