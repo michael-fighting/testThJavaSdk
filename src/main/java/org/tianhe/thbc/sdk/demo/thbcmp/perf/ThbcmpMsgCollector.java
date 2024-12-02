@@ -73,7 +73,7 @@ public class ThbcmpMsgCollector {
 
         System.out.println("===================================================================");
 
-        System.out.println("Total amop msg:  " + String.valueOf(total));
+        System.out.println("Total thbcmp msg:  " + String.valueOf(total));
         System.out.println("Total time: " + String.valueOf(totalTime) + "ms");
         System.out.println("Success received:  " + String.valueOf(received.get()));
         System.out.println("Response error:" + String.valueOf(error.get()));

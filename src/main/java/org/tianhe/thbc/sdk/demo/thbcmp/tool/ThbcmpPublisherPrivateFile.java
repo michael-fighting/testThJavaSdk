@@ -23,7 +23,7 @@ public class ThbcmpPublisherPrivateFile {
     private static String publisherFile =
             ThbcmpPublisherPrivateFile.class
                     .getClassLoader()
-                    .getResource("amop/config-publisher-for-test.toml")
+                    .getResource("thbcmp/config-publisher-for-test.toml")
                     .getPath();
 
     /**

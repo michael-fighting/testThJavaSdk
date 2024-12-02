@@ -7,16 +7,16 @@ import org.tianhe.thbc.sdk.thbcmp.Thbcmp;
 import org.tianhe.thbc.sdk.thbcmp.topic.TopicType;
 import org.tianhe.thbc.sdk.utils.ThreadPoolService;
 
-public class PerformanceAmop {
+public class PerformanceThbcmp {
     private static final String senderConfig =
-            PerformanceAmop.class
+            PerformanceThbcmp.class
                     .getClassLoader()
-                    .getResource("amop/config-publisher-for-test.toml")
+                    .getResource("thbcmp/config-publisher-for-test.toml")
                     .getPath();
     private static final String subscriberConfig =
-            PerformanceAmop.class
+            PerformanceThbcmp.class
                     .getClassLoader()
-                    .getResource("amop/config-subscriber-for-test.toml")
+                    .getResource("thbcmp/config-subscriber-for-test.toml")
                     .getPath();
     private static AtomicInteger sendedMsg = new AtomicInteger(0);
     private static ThbcmpMsgBuilder msgBuilder = new ThbcmpMsgBuilder();
@@ -49,11 +49,11 @@ public class PerformanceAmop {
             System.out.println("1s ...");
             Thread.sleep(1000);
             System.out.println(
-                    "====== PerformanceAmop Amop public topic text message performance start ======");
+                    "====== PerformanceThbcmp Thbcmp public topic text message performance start ======");
             RateLimiter limiter = RateLimiter.create(qps);
             Integer area = count / 10;
             final Integer total = count;
-            ThreadPoolService threadPoolService = new ThreadPoolService("PerformanceAmop", 102400);
+            ThreadPoolService threadPoolService = new ThreadPoolService("Performancethbcmp", 102400);
 
             for (Integer i = 0; i < count; i++) {
                 limiter.acquire();
@@ -76,7 +76,7 @@ public class PerformanceAmop {
                                                             + current
                                                             + "/"
                                                             + total
-                                                            + " amop text message");
+                                                            + " thbcmp text message");
                                         }
                                     }
                                 });
@@ -88,7 +88,7 @@ public class PerformanceAmop {
             threadPoolService.stop();
         } catch (Exception e) {
             System.out.println(
-                    "====== PerformanceAmop test failed, error message: " + e.getMessage());
+                    "====== PerformanceThbcmp test failed, error message: " + e.getMessage());
         }
     }
 }

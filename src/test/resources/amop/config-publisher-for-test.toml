@@ -1,4 +1,4 @@
-# This is a config file for amop test
+# This is a config file for thbcmp test
 
 [cryptoMaterial]
 certPath = "conf"
@@ -15,11 +15,11 @@ certPath = "conf"
 # The peer list to connect
 peers=["127.0.0.1:20200", "127.0.0.1:20201"]
 
-# Configure a "need verify AMOP topic" as a topic message sender.
-[[amop]]
+# Configure a "need verify Thbcmp topic" as a topic message sender.
+[[thbcmp]]
 topicName = "privTopic"
-# Public keys of the nodes that you want to send AMOP message of this topic to.
-publicKeys = [ "conf/amop/consumer_public_key_1.pem"]
+# Public keys of the nodes that you want to send Thbcmp message of this topic to.
+publicKeys = [ "conf/thbcmp/consumer_public_key_1.pem"]
 
 
 [account]

@@ -22,14 +22,14 @@ certPath = "conf"                           # The certification path
 peers=["127.0.0.1:20200", "127.0.0.1:20201","127.0.0.1:20202","127.0.0.1:20203" ]    # The peer list to connect
 
 # Configure a private topic as a topic message sender.
-# [[amop]]
+# [[thbcmp]]
 # topicName = "PrivateTopic1"
-# publicKeys = [ "conf/amop/consumer_public_key_1.pem" ]    # Public keys of the nodes that you want to send AMOP message of this topic to.
+# publicKeys = [ "conf/thbcmp/consumer_public_key_1.pem" ]    # Public keys of the nodes that you want to send thbcmp message of this topic to.
 
 # Configure a private topic as a topic subscriber.
-# [[amop]]
+# [[thbcmp]]
 # topicName = "PrivateTopic2"
-# privateKey = "conf/amop/consumer_private_key.p12"         # Your private key that used to subscriber verification.
+# privateKey = "conf/thbcmp/consumer_private_key.p12"         # Your private key that used to subscriber verification.
 # password = "123456"
 
 [account]

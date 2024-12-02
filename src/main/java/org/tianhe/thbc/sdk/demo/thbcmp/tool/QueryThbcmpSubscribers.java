@@ -10,7 +10,7 @@ public class QueryThbcmpSubscribers {
     private static String publisherFile =
             QueryThbcmpSubscribers.class
                     .getClassLoader()
-                    .getResource("amop/config-full.toml")
+                    .getResource("thbcmp/config-full.toml")
                     .getPath();
 
     /** @param args topic, ipAndPort */

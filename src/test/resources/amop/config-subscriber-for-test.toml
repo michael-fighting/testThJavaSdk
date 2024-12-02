@@ -1,4 +1,4 @@
-# This is a config file for amop test
+# This is a config file for thbcmp test
 
 [cryptoMaterial]
 certPath = "conf"
@@ -16,10 +16,10 @@ certPath = "conf"
 peers=["127.0.0.1:20202", "127.0.0.1:20203"]
 
 # Configure a private topic as a topic message sender.
-[[amop]]
+[[thbcmp]]
 topicName = "privTopic"
 # Your private key that used to subscriber verification.
-privateKey = "conf/amop/consumer_private_key.p12"
+privateKey = "conf/thbcmp/consumer_private_key.p12"
 password = "123456"
 
 

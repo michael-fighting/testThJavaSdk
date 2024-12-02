@@ -58,7 +58,7 @@ public class DemoThbcmpCallback extends ThbcmpCallback {
         }
 
         byte[] responseData = "Yes, I received!".getBytes();
-        // Print receive amop message
+        // Print receive thbcmp message
         System.out.println(
                 "Step 2:Receive msg, time: "
                         + df.format(LocalDateTime.now())

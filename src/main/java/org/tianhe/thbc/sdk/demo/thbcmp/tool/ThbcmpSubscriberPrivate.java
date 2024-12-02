@@ -11,27 +11,27 @@ public class ThbcmpSubscriberPrivate {
     private static String subscriberConfigFile =
             ThbcmpSubscriberPrivate.class
                     .getClassLoader()
-                    .getResource("amop/config-subscriber-for-test.toml")
+                    .getResource("thbcmp/config-subscriber-for-test.toml")
                     .getPath();
 
     /**
      * @param args topic, privateKeyFile, password(Option)
-     * @throws Exception AMOP exceptioned
+     * @throws Exception Thbcmp exceptioned
      */
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
             System.out.println(
-                    "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.amop.tool.ThbcmpSubscriberPrivate <topicName> <privateKeyFile> <password>");
+                    "java -cp 'conf/:lib/*:apps/*' org.tianhe.thbc.sdk.demo.thbcmp.tool.ThbcmpSubscriberPrivate <topicName> <privateKeyFile> <password>");
             return;
         }
         String topic = args[0];
         String privateKeyFile = args[1];
         ThbcSDK sdk = ThbcSDK.build(subscriberConfigFile);
-        Thbcmp amop = sdk.getThbcmp();
+        Thbcmp thbcmp = sdk.getThbcmp();
         ThbcmpCallback cb = new DemoThbcmpCallback();
 
         System.out.println("Start test");
-        amop.setCallback(cb);
+        thbcmp.setCallback(cb);
 
         // Read a private key file
         KeyTool km;
@@ -43,6 +43,6 @@ public class ThbcmpSubscriberPrivate {
         }
 
         // Subscriber a private topic.
-        amop.subscribePrivateTopics(topic, km, cb);
+        thbcmp.subscribePrivateTopics(topic, km, cb);
     }
 }

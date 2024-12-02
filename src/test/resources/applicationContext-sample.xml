@@ -28,15 +28,15 @@
 			</map>
 		</property>
 		<!--
-		<property name="amop">
+		<property name="thbcmp">
 			<list>
-				<bean id="amopTopic1" class="org.tianhe.thbc.sdk.config.model.AmopTopic">
+				<bean id="thbcmpTopic1" class="org.tianhe.thbc.sdk.config.model.thbcmpTopic">
 					<property name="topicName" value="PrivateTopic1" />
 					<property name="password" value="" />
 					<property name="privateKey" value="" />
 					<property name="publicKeys">
 						<list>
-							<value>conf/amop/consumer_public_key_1.pem</value>
+							<value>conf/thbcmp/consumer_public_key_1.pem</value>
 						</list>
 					</property>
 				</bean>
