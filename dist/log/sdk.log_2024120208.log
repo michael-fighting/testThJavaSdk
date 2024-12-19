@@ -1,0 +1,518 @@
+[DEBUG] [2024-12-02 09:00:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 625f82c5f728453584f618dcf88a898f, msgType : 19
+[DEBUG] [2024-12-02 09:00:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : e884e10be29b49c09b9be7b1b95b00d7, msgType : 19
+[DEBUG] [2024-12-02 09:00:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 73175b7818404267a91746c01ca63130, msgType : 19
+[DEBUG] [2024-12-02 09:00:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : f715a1f7e0b844d894018aafa1801195, msgType : 19
+[DEBUG] [2024-12-02 09:00:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 90cbfd5f6a384a04937ae2e0d886d41d, msgType : 19
+[DEBUG] [2024-12-02 09:00:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : e9bb5705dfa24b9ea998ab72072b296d, msgType : 19
+[DEBUG] [2024-12-02 09:00:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : a56cc69d751d4c85917142d657ae5b56, msgType : 19
+[DEBUG] [2024-12-02 09:00:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : d249dc1f3d0a490cbf8b1e45198ebd41, msgType : 19
+[DEBUG] [2024-12-02 09:00:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 7609a3413cf84a1a93e28b206ffb3923, msgType : 19
+[DEBUG] [2024-12-02 09:00:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : c394b87633be44298a0d2f99f4e62a5f, msgType : 19
+[DEBUG] [2024-12-02 09:00:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 50012f07a89c435e9fc660cbb6bd24f1, msgType : 19
+[DEBUG] [2024-12-02 09:00:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : be801468bcb040468426eec4629a93d3, msgType : 19
+[DEBUG] [2024-12-02 09:00:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : bc9f06cfad394dd2addd0d1daa9f489c, msgType : 19
+[DEBUG] [2024-12-02 09:00:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : b2793df65817407793ae57a468a17db9, msgType : 19
+[DEBUG] [2024-12-02 09:00:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 93ec8a34731b4d06bcf742024e6e6c68, msgType : 19
+[DEBUG] [2024-12-02 09:00:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2dc655183ba34c5c86baf58348688613, msgType : 19
+[DEBUG] [2024-12-02 09:00:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 3a18ac96778544c7ba5c2eb52093ffbe, msgType : 19
+[DEBUG] [2024-12-02 09:00:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 1082a4a1829c4ab3a888d81f9ae62c43, msgType : 19
+[DEBUG] [2024-12-02 09:00:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 89a31c1bbb8c41fca9f49e7ce5aae68a, msgType : 18
+[DEBUG] [2024-12-02 09:00:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : cf875c80e69e42d2bcde51036f5bb1d4, msgType : 18
+[DEBUG] [2024-12-02 09:00:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : daf9c1c0a70c4c3592e8662c74df1ece, msgType : 19
+[DEBUG] [2024-12-02 09:00:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 5a537bf04bad48458aac1cb407e1996b, msgType : 19
+[DEBUG] [2024-12-02 09:00:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 3e0a436082fc4dcf819c1229eb35cbda, msgType : 19
+[DEBUG] [2024-12-02 09:00:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 29fe5b85af554b6088f51aa2cf46d281, msgType : 19
+[DEBUG] [2024-12-02 09:00:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : a0c6bdb04c234d76804259a56c3c368d, msgType : 19
+[DEBUG] [2024-12-02 09:00:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : ec610574396d432285701af05ccc46d8, msgType : 19
+[DEBUG] [2024-12-02 09:00:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 18dfd0acd94a48d2bda33f4af1758f05, msgType : 19
+[DEBUG] [2024-12-02 09:00:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 58155b72bd5740ae9831efffbc3dfc28, msgType : 19
+[DEBUG] [2024-12-02 09:00:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 85ecc4456825419fbfea2d90d09b77b1, msgType : 19
+[DEBUG] [2024-12-02 09:00:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : cfab968eaa204ec3bba39ac4d0e1df7b, msgType : 19
+[DEBUG] [2024-12-02 09:00:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 9cca4b096690461cbeb75629aa41bdeb, msgType : 19
+[DEBUG] [2024-12-02 09:00:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 50ddebffc21a4d5cac908338b346b0bf, msgType : 19
+[DEBUG] [2024-12-02 09:00:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 96fa15e132964a7aa1dab954f1903001, msgType : 19
+[DEBUG] [2024-12-02 09:00:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : f671af6d775d4eb8aa5dbb9bb7b8643d, msgType : 19
+[DEBUG] [2024-12-02 09:00:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 587d59700dbb44c88a9d54f035ff1727, msgType : 19
+[DEBUG] [2024-12-02 09:00:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : cb0949d226154d748919a31280333691, msgType : 19
+[DEBUG] [2024-12-02 09:00:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : ad396d4ff4844d66b6c505da9b38a7ef, msgType : 19
+[DEBUG] [2024-12-02 09:00:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 791e04535c574a59a7e727ee4ee7db13, msgType : 19
+[DEBUG] [2024-12-02 09:00:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2d6eff919c2f45edab56c9650a6b6fee, msgType : 19
+[DEBUG] [2024-12-02 09:00:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : e3a2e4e21793406aa41c2acbfd8465eb, msgType : 19
+[DEBUG] [2024-12-02 09:00:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 234f38eda92f48298ae97aaee6f34b37, msgType : 19
+[DEBUG] [2024-12-02 09:00:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 8b6c8aa89d3d4442a8a251106ced62db, msgType : 19
+[DEBUG] [2024-12-02 09:00:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : b55e79a40b4745c7be5fe5e340b162ea, msgType : 19
+[DEBUG] [2024-12-02 09:00:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 30f6e8c12ff845dca795e85138f90712, msgType : 19
+[DEBUG] [2024-12-02 09:00:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : b86d023577b54eeca7e92b03371d72a3, msgType : 19
+[DEBUG] [2024-12-02 09:00:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 5ff3bc07677d401cbaa37bf255baa8d4, msgType : 19
+[DEBUG] [2024-12-02 09:00:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : d5635140dbee47d487cdf44d93c3115b, msgType : 19
+[DEBUG] [2024-12-02 09:00:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : fa6e557950964856ab84ae3164f24e75, msgType : 19
+[DEBUG] [2024-12-02 09:00:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 7330c68a4e854de7aabf89c17128540d, msgType : 19
+[DEBUG] [2024-12-02 09:00:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 98090eefc38845719bd0f5c4918a8a36, msgType : 19
+[DEBUG] [2024-12-02 09:00:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 23cbf53bed99414aa5ca9cd7ace26bf2, msgType : 19
+[DEBUG] [2024-12-02 09:00:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : e0ee81b95bb7417cbd6482b4c275295c, msgType : 19
+[DEBUG] [2024-12-02 09:00:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 7874e9a4cd534e9b84f0647dfc649850, msgType : 19
+[DEBUG] [2024-12-02 09:00:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : c2a06f25171643d28ec6b396fb3c0e87, msgType : 19
+[DEBUG] [2024-12-02 09:00:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 910a9c4d762c4955b2b8057a41124087, msgType : 19
+[DEBUG] [2024-12-02 09:00:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : c702e1c6ac1a4b63b001ec062aec7d73, msgType : 19
+[DEBUG] [2024-12-02 09:00:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : efd3ee21293745f4a92f00642c16c672, msgType : 19
+[DEBUG] [2024-12-02 09:00:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : a8d23128abf24e3ba98a7a88aa3fa570, msgType : 19
+[DEBUG] [2024-12-02 09:00:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : b160ec7ee2d74945a99819042432d78a, msgType : 19
+[DEBUG] [2024-12-02 09:00:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : fd26462b7200451fad9d96e19f0f415e, msgType : 19
+[DEBUG] [2024-12-02 09:00:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : bd883d5ecee1482b9dfe914641d942d9, msgType : 19
+[DEBUG] [2024-12-02 09:00:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : e316980e346446168010892a47223c0a, msgType : 19
+[DEBUG] [2024-12-02 09:01:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : e5663956349747ec8f4fddefe4600b6a, msgType : 19
+[DEBUG] [2024-12-02 09:01:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 63697b70c5f645089f1095ba97bed867, msgType : 19
+[DEBUG] [2024-12-02 09:01:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 7b67c11f2a754368bf017c1dce126883, msgType : 19
+[DEBUG] [2024-12-02 09:01:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : cd0d3b5bf11c42bea3408b43b088fdb0, msgType : 19
+[DEBUG] [2024-12-02 09:01:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : c7a3396cc94a45189aafe902d993a92e, msgType : 19
+[DEBUG] [2024-12-02 09:01:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : a362dba929e34f4894d329b43b043f03, msgType : 19
+[DEBUG] [2024-12-02 09:01:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 6909222a1d9441e39ae00f02fecafbd9, msgType : 19
+[DEBUG] [2024-12-02 09:01:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 4edbd581452a4e9fb74cbfa23fcf1069, msgType : 19
+[DEBUG] [2024-12-02 09:01:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : c4aa5ac3e1a04d6fa86d49a5b44df53d, msgType : 19
+[DEBUG] [2024-12-02 09:01:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 606f6e91a6374e86b6155e1445d2ef4a, msgType : 19
+[DEBUG] [2024-12-02 09:01:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 83ab2a19904748e7a53f4aa4c75a66e4, msgType : 19
+[DEBUG] [2024-12-02 09:01:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 174456ead5a544d190cb9ca46c611165, msgType : 19
+[DEBUG] [2024-12-02 09:01:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 69f00ccf4efa44d1826970ae020705bb, msgType : 19
+[DEBUG] [2024-12-02 09:01:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 676ccedc97dc44bc8d28963c032c444c, msgType : 19
+[DEBUG] [2024-12-02 09:01:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : a29f393f8b9c44328c588ad5b16d8d4f, msgType : 19
+[DEBUG] [2024-12-02 09:01:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2e9497eead7c4c84ad5605735da25f43, msgType : 19
+[DEBUG] [2024-12-02 09:01:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : cec6152345fd4b1aaa5b62fc7636c275, msgType : 19
+[DEBUG] [2024-12-02 09:01:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : a145781c1bd84fe5a710a9ac44694f0f, msgType : 19
+[DEBUG] [2024-12-02 09:01:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 7bb195d278c246daaa7481153c5079e7, msgType : 18
+[DEBUG] [2024-12-02 09:01:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : f497c81446684eb1a1f6e6186d8c93bd, msgType : 18
+[DEBUG] [2024-12-02 09:01:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 46144bc37c354d9dbab535fdc983988e, msgType : 19
+[DEBUG] [2024-12-02 09:01:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 862e1ef5987e4ed6ba7644c9445015b5, msgType : 19
+[DEBUG] [2024-12-02 09:01:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : eb311f63e9294571b7c14af9dd5595a8, msgType : 19
+[DEBUG] [2024-12-02 09:01:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : eec35434165e46c584007e17d69b5c22, msgType : 19
+[DEBUG] [2024-12-02 09:01:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 63a7d383dea545d3b7642f2a68e9adb8, msgType : 19
+[DEBUG] [2024-12-02 09:01:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2d085640b26c480799dd8df0b5c63346, msgType : 19
+[DEBUG] [2024-12-02 09:01:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 51e9541010f54e6da2197c7cd74f4759, msgType : 19
+[DEBUG] [2024-12-02 09:01:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 92416561e3a940edafdd075762e483bf, msgType : 19
+[DEBUG] [2024-12-02 09:01:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 3c9e5968d2b247d0a378a80e56f88b27, msgType : 19
+[DEBUG] [2024-12-02 09:01:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : f9f2a9a64d7046ccb99b071ec81206c8, msgType : 19
+[DEBUG] [2024-12-02 09:01:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : a3ef586c50714b438d26049b83cac088, msgType : 19
+[DEBUG] [2024-12-02 09:01:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : eac48fa55dcb4dbd89dc9166bcdbabcf, msgType : 19
+[DEBUG] [2024-12-02 09:01:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 2250cf250aee406183b6cea0c7d99db1, msgType : 19
+[DEBUG] [2024-12-02 09:01:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 489536c6a59d4002ac8f785534a63ab8, msgType : 19
+[DEBUG] [2024-12-02 09:01:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 2ace3936bd4d4f918a2e368604bd7ac2, msgType : 19
+[DEBUG] [2024-12-02 09:01:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : d3d654c45a014b19a190bd7121760065, msgType : 19
+[DEBUG] [2024-12-02 09:01:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : bb6b10c6d3094f2887fe76d6df3023ff, msgType : 19
+[DEBUG] [2024-12-02 09:01:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : ac72e8d1d075438cab9768bbc90dd6f8, msgType : 19
+[DEBUG] [2024-12-02 09:01:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : e9d49a4ff36f40889e0f326d4d606936, msgType : 19
+[DEBUG] [2024-12-02 09:01:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : f0245d4528e542e39975f80d2baa2abd, msgType : 19
+[DEBUG] [2024-12-02 09:01:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 0bf57b7893a04751b1155112b13f17a0, msgType : 19
+[DEBUG] [2024-12-02 09:01:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 9a9b7e7d85fb4840bd81b34fc80c398e, msgType : 19
+[DEBUG] [2024-12-02 09:01:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 05f96f13a91b4f648d800e85920dee97, msgType : 19
+[DEBUG] [2024-12-02 09:01:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 75b3a93ed16a4899adb87c7c230fc716, msgType : 19
+[DEBUG] [2024-12-02 09:01:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 0e59af127f674448939cd2236b06038d, msgType : 19
+[DEBUG] [2024-12-02 09:01:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 0884105e4a2c4c058864b7c1cef2d8c2, msgType : 19
+[DEBUG] [2024-12-02 09:01:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2102c2ce206b463e8cffc623522518fa, msgType : 19
+[DEBUG] [2024-12-02 09:01:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 1476b1dd5e454740a0c30fb8dced91dc, msgType : 19
+[DEBUG] [2024-12-02 09:01:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : d339138ca60a431eafe1b693e3f0ab3f, msgType : 19
+[DEBUG] [2024-12-02 09:01:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : b5ac506b51414943a677b7e264d962fa, msgType : 19
+[DEBUG] [2024-12-02 09:01:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 75799baed295471ba036efe12eb0676d, msgType : 19
+[DEBUG] [2024-12-02 09:01:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2c81955b47b14a5faf2f3238d73ddbee, msgType : 19
+[DEBUG] [2024-12-02 09:01:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 0bbfc7c0c77d4dbbb1d7f9f4c3801619, msgType : 19
+[DEBUG] [2024-12-02 09:01:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 30f75885d5824169b718b8e177afeabd, msgType : 19
+[DEBUG] [2024-12-02 09:01:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 50ffa54feb88400eb88d20e173dec30e, msgType : 19
+[DEBUG] [2024-12-02 09:01:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 74a16e064a494cc39b4e4902b94afd2d, msgType : 19
+[DEBUG] [2024-12-02 09:01:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : d3329890722e4ef0a01b5d68aa8a4bd7, msgType : 19
+[DEBUG] [2024-12-02 09:01:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : d7cdd5fd22724465b207d11615b41da7, msgType : 19
+[DEBUG] [2024-12-02 09:01:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 12689eceaf0544149913154a86ee9aec, msgType : 19
+[DEBUG] [2024-12-02 09:01:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 3322839895ad41e5b5aaf0ba23f92671, msgType : 19
+[DEBUG] [2024-12-02 09:01:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : fc9ca1e812124721be03c1fabc1637f3, msgType : 19
+[DEBUG] [2024-12-02 09:01:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 2da7dde5c163439f8209b37492ec1807, msgType : 19
+[DEBUG] [2024-12-02 09:02:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 8c4e58d476f94259b7ce1eae71ba7b06, msgType : 19
+[DEBUG] [2024-12-02 09:02:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : f8a88846aaaa483388dda6340101c955, msgType : 19
+[DEBUG] [2024-12-02 09:02:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 388e092a460f4c2680d009a0608a6e83, msgType : 19
+[DEBUG] [2024-12-02 09:02:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : c19d1076f0c84c53aec3e04b8f755230, msgType : 19
+[DEBUG] [2024-12-02 09:02:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 4029347013f54776944cff400957dca3, msgType : 19
+[DEBUG] [2024-12-02 09:02:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 4e8ccb635b884472bcb388ac033936b6, msgType : 19
+[DEBUG] [2024-12-02 09:02:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 9aa49bc9b91e40afb8ae6bc7ff696e97, msgType : 19
+[DEBUG] [2024-12-02 09:02:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 289c765188334b7ab87820e43c052c84, msgType : 19
+[DEBUG] [2024-12-02 09:02:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : d60280da4f744f3c9c7374a9f6f3b49d, msgType : 19
+[DEBUG] [2024-12-02 09:02:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 5a9882bbe6f842f39dca94101215ab13, msgType : 19
+[DEBUG] [2024-12-02 09:02:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20203, seq : 1f8d497dec6d4c3390d71364bd0ea0d1, msgType : 19
+[DEBUG] [2024-12-02 09:02:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20202, seq : 333f50f48c934f7db51bfc92cd761416, msgType : 19
+[INFO] [2024-12-02 09:02:12] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20203, ctx: 1852062540 
+[DEBUG] [2024-12-02 09:02:12] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20203 ,false
+[DEBUG] [2024-12-02 09:02:12] ConnectionManager.removeConnectionContext(438) |  result: true, host: 127.0.0.1, port: 20203, ctx: 1852062540
+[DEBUG] [2024-12-02 09:02:12] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20203
+[DEBUG] [2024-12-02 09:02:12] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20203
+[DEBUG] [2024-12-02 09:02:12] GroupServiceImpl.resetLatestBlockNumber(161) | g:1, resetLatestBlockNumber, latestBlockNumber: 0, nodeWithLatestBlockNumber:[], maxBlockNumber: 0
+[DEBUG] [2024-12-02 09:02:12] GroupServiceImpl.removeNode(67) | g:1, removeNode=127.0.0.1:20203, blockNumberInfoSize=1, latestBlockNumber:0
+[DEBUG] [2024-12-02 09:02:12] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20203, groupInfo: [1]
+[DEBUG] [2024-12-02 09:02:12] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20203, topic: _block_notify_1
+[INFO] [2024-12-02 09:02:12] ThbcmpImp.sendSubscribe(216) | update subscribe inform 1 peers
+[DEBUG] [2024-12-02 09:02:12] ThbcmpImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20202, topics:["#!$TopicNeedVerify_privTopic","_block_notify_1","testTopic","#!$VerifyChannel_#!$TopicNeedVerify_privTopic_b61795d56d854f2aba928c321d140c53"]
+[WARN] [2024-12-02 09:02:12] DefaultChannelPipeline.onUnhandledInboundException(1152) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[INFO] [2024-12-02 09:02:12] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20202, ctx: 117687651 
+[DEBUG] [2024-12-02 09:02:12] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20202 ,false
+[DEBUG] [2024-12-02 09:02:12] ConnectionManager.removeConnectionContext(438) |  result: true, host: 127.0.0.1, port: 20202, ctx: 117687651
+[DEBUG] [2024-12-02 09:02:12] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20202
+[DEBUG] [2024-12-02 09:02:12] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20202
+[DEBUG] [2024-12-02 09:02:12] GroupServiceImpl.removeNode(67) | g:1, removeNode=127.0.0.1:20202, blockNumberInfoSize=0, latestBlockNumber:0
+[DEBUG] [2024-12-02 09:02:12] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20202, groupInfo: [1]
+[DEBUG] [2024-12-02 09:02:12] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20202, topic: _block_notify_1
+[INFO] [2024-12-02 09:02:12] ThbcmpImp.sendSubscribe(216) | update subscribe inform 0 peers
+[ERROR] [2024-12-02 09:02:16] ConnectionManager.checkConnectionResult(369) | connect to 127.0.0.1:20202 failed. Connection refused: /127.0.0.1:20202
+[ERROR] [2024-12-02 09:02:16] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20202, error: [{"code":2, "msg":"connect to 127.0.0.1:20202 failed"}]
+[ERROR] [2024-12-02 09:02:16] ConnectionManager.checkConnectionResult(369) | connect to 127.0.0.1:20203 failed. Connection refused: /127.0.0.1:20203
+[ERROR] [2024-12-02 09:02:16] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20203, error: [{"code":2, "msg":"connect to 127.0.0.1:20203 failed"}]
+[ERROR] [2024-12-02 09:02:36] ConnectionManager.checkConnectionResult(369) | connect to 127.0.0.1:20202 failed. Connection refused: /127.0.0.1:20202
+[ERROR] [2024-12-02 09:02:36] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20202, error: [{"code":2, "msg":"connect to 127.0.0.1:20202 failed"}]
+[ERROR] [2024-12-02 09:02:36] ConnectionManager.checkConnectionResult(369) | connect to 127.0.0.1:20203 failed. Connection refused: /127.0.0.1:20203
+[ERROR] [2024-12-02 09:02:36] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20203, error: [{"code":2, "msg":"connect to 127.0.0.1:20203 failed"}]
+[ERROR] [2024-12-02 09:02:56] ConnectionManager.checkConnectionResult(369) | connect to 127.0.0.1:20202 failed. Connection refused: /127.0.0.1:20202
+[ERROR] [2024-12-02 09:02:56] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20202, error: [{"code":2, "msg":"connect to 127.0.0.1:20202 failed"}]
+[ERROR] [2024-12-02 09:02:56] ConnectionManager.checkConnectionResult(369) | connect to 127.0.0.1:20203 failed. Connection refused: /127.0.0.1:20203
+[ERROR] [2024-12-02 09:02:56] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20203, error: [{"code":2, "msg":"connect to 127.0.0.1:20203 failed"}]
+[DEBUG] [2024-12-02 09:03:16] ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(701) | verification of certificate failed
+sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:313)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:276)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:141)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback.verify(ReferenceCountedOpenSslClientContext.java:261)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(ReferenceCountedOpenSslContext.java:698)
+	at io.netty.internal.tcnative.SSL.readFromSSL(Native Method)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.readPlaintextData(ReferenceCountedOpenSslEngine.java:596)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1203)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1325)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1368)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$1.unwrap(SslHandler.java:206)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1387)
+	at io.netty.handler.ssl.SslHandler.decodeNonJdkCompatible(SslHandler.java:1294)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1331)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:157)
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
+	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
+	... 35 more
+[ERROR] [2024-12-02 09:03:16] ConnectionManager.checkConnectionResult(415) |  ssl handshake failed:/127.0.0.1:20202! Please check the certificate and ensure that the SDK and the node are in the same agency!
+[ERROR] [2024-12-02 09:03:16] ChannelHandler.userEventTriggered(93) |  handshake failed, host: 127.0.0.1, port: 20202, message: General OpenSslEngine problem, cause: {} 
+javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.handshakeException(ReferenceCountedOpenSslEngine.java:1772)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.wrap(ReferenceCountedOpenSslEngine.java:777)
+	at java.base/javax.net.ssl.SSLEngine.wrap(SSLEngine.java:522)
+	at io.netty.handler.ssl.SslHandler.wrap(SslHandler.java:1086)
+	at io.netty.handler.ssl.SslHandler.wrapNonAppData(SslHandler.java:977)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1450)
+	at io.netty.handler.ssl.SslHandler.decodeNonJdkCompatible(SslHandler.java:1294)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1331)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:313)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:276)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:141)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback.verify(ReferenceCountedOpenSslClientContext.java:261)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(ReferenceCountedOpenSslContext.java:698)
+	at io.netty.internal.tcnative.SSL.readFromSSL(Native Method)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.readPlaintextData(ReferenceCountedOpenSslEngine.java:596)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1203)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1325)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1368)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$1.unwrap(SslHandler.java:206)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1387)
+	... 21 more
+	Suppressed: javax.net.ssl.SSLHandshakeException: error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.sslReadErrorResult(ReferenceCountedOpenSslEngine.java:1288)
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1249)
+		... 25 more
+Caused by: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:157)
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
+	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
+	... 35 more
+[ERROR] [2024-12-02 09:03:16] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20202, error: [{"code":1, "msg":" ssl handshake failed:/127.0.0.1:20202! Please check the certificate and ensure that the SDK and the node are in the same agency!"}]
+[WARN] [2024-12-02 09:03:16] DefaultChannelPipeline.onUnhandledInboundException(1152) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:471)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.handshakeException(ReferenceCountedOpenSslEngine.java:1772)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.wrap(ReferenceCountedOpenSslEngine.java:777)
+	at java.base/javax.net.ssl.SSLEngine.wrap(SSLEngine.java:522)
+	at io.netty.handler.ssl.SslHandler.wrap(SslHandler.java:1086)
+	at io.netty.handler.ssl.SslHandler.wrapNonAppData(SslHandler.java:977)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1450)
+	at io.netty.handler.ssl.SslHandler.decodeNonJdkCompatible(SslHandler.java:1294)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1331)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	... 17 more
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:313)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:276)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:141)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback.verify(ReferenceCountedOpenSslClientContext.java:261)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(ReferenceCountedOpenSslContext.java:698)
+	at io.netty.internal.tcnative.SSL.readFromSSL(Native Method)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.readPlaintextData(ReferenceCountedOpenSslEngine.java:596)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1203)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1325)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1368)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$1.unwrap(SslHandler.java:206)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1387)
+	... 21 more
+	Suppressed: javax.net.ssl.SSLHandshakeException: error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.sslReadErrorResult(ReferenceCountedOpenSslEngine.java:1288)
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1249)
+		... 25 more
+Caused by: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:157)
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
+	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
+	... 35 more
+[INFO] [2024-12-02 09:03:16] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20202, ctx: 1571287315 
+[DEBUG] [2024-12-02 09:03:16] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20202 ,false
+[DEBUG] [2024-12-02 09:03:16] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20202
+[DEBUG] [2024-12-02 09:03:16] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20202
+[DEBUG] [2024-12-02 09:03:16] ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(701) | verification of certificate failed
+sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:313)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:276)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:141)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback.verify(ReferenceCountedOpenSslClientContext.java:261)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(ReferenceCountedOpenSslContext.java:698)
+	at io.netty.internal.tcnative.SSL.readFromSSL(Native Method)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.readPlaintextData(ReferenceCountedOpenSslEngine.java:596)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1203)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1325)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1368)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$1.unwrap(SslHandler.java:206)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1387)
+	at io.netty.handler.ssl.SslHandler.decodeNonJdkCompatible(SslHandler.java:1294)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1331)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:157)
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
+	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
+	... 35 more
+[ERROR] [2024-12-02 09:03:16] ConnectionManager.checkConnectionResult(415) |  ssl handshake failed:/127.0.0.1:20203! Please check the certificate and ensure that the SDK and the node are in the same agency!
+[ERROR] [2024-12-02 09:03:16] ConnectionManager.reconnect(202) |  reconnect to 127.0.0.1:20203, error: [{"code":1, "msg":" ssl handshake failed:/127.0.0.1:20203! Please check the certificate and ensure that the SDK and the node are in the same agency!"}]
+[ERROR] [2024-12-02 09:03:16] ChannelHandler.userEventTriggered(93) |  handshake failed, host: 127.0.0.1, port: 20203, message: General OpenSslEngine problem, cause: {} 
+javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.handshakeException(ReferenceCountedOpenSslEngine.java:1772)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.wrap(ReferenceCountedOpenSslEngine.java:777)
+	at java.base/javax.net.ssl.SSLEngine.wrap(SSLEngine.java:522)
+	at io.netty.handler.ssl.SslHandler.wrap(SslHandler.java:1086)
+	at io.netty.handler.ssl.SslHandler.wrapNonAppData(SslHandler.java:977)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1450)
+	at io.netty.handler.ssl.SslHandler.decodeNonJdkCompatible(SslHandler.java:1294)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1331)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:313)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:276)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:141)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback.verify(ReferenceCountedOpenSslClientContext.java:261)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(ReferenceCountedOpenSslContext.java:698)
+	at io.netty.internal.tcnative.SSL.readFromSSL(Native Method)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.readPlaintextData(ReferenceCountedOpenSslEngine.java:596)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1203)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1325)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1368)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$1.unwrap(SslHandler.java:206)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1387)
+	... 21 more
+	Suppressed: javax.net.ssl.SSLHandshakeException: error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.sslReadErrorResult(ReferenceCountedOpenSslEngine.java:1288)
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1249)
+		... 25 more
+Caused by: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:157)
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
+	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
+	... 35 more
+[WARN] [2024-12-02 09:03:16] DefaultChannelPipeline.onUnhandledInboundException(1152) | An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:471)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.handshakeException(ReferenceCountedOpenSslEngine.java:1772)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.wrap(ReferenceCountedOpenSslEngine.java:777)
+	at java.base/javax.net.ssl.SSLEngine.wrap(SSLEngine.java:522)
+	at io.netty.handler.ssl.SslHandler.wrap(SslHandler.java:1086)
+	at io.netty.handler.ssl.SslHandler.wrapNonAppData(SslHandler.java:977)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1450)
+	at io.netty.handler.ssl.SslHandler.decodeNonJdkCompatible(SslHandler.java:1294)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1331)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:501)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:440)
+	... 17 more
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:313)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:276)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:141)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslClientContext$ExtendedTrustManagerVerifyCallback.verify(ReferenceCountedOpenSslClientContext.java:261)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslContext$AbstractCertificateVerifier.verify(ReferenceCountedOpenSslContext.java:698)
+	at io.netty.internal.tcnative.SSL.readFromSSL(Native Method)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.readPlaintextData(ReferenceCountedOpenSslEngine.java:596)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1203)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1325)
+	at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1368)
+	at io.netty.handler.ssl.SslHandler$SslEngineType$1.unwrap(SslHandler.java:206)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1387)
+	... 21 more
+	Suppressed: javax.net.ssl.SSLHandshakeException: error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.sslReadErrorResult(ReferenceCountedOpenSslEngine.java:1288)
+		at io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap(ReferenceCountedOpenSslEngine.java:1249)
+		... 25 more
+Caused by: java.security.cert.CertPathValidatorException: Path does not chain with any of the trust anchors
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:157)
+	at java.base/sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83)
+	at java.base/java.security.cert.CertPathValidator.validate(CertPathValidator.java:309)
+	at java.base/sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364)
+	... 35 more
+[INFO] [2024-12-02 09:03:16] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20203, ctx: 1020450934 
+[DEBUG] [2024-12-02 09:03:16] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20203 ,false
+[DEBUG] [2024-12-02 09:03:16] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20203
+[DEBUG] [2024-12-02 09:03:16] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20203
