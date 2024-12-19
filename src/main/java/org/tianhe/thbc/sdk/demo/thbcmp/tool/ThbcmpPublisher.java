@@ -80,7 +80,7 @@ public class ThbcmpPublisher {
     }
 
     public static boolean subscribed(ThbcSDK sdk, String topicName) throws InterruptedException {
-        Client client = sdk.getClient(Integer.valueOf(1));
+        Client client = sdk.getClient(Integer.valueOf(287));
         Boolean hasSubscriber = false;
         Peers peers = client.getPeers();
         for (int i = 0; i < 10; i++) {
